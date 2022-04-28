@@ -58,7 +58,7 @@ class Piggy(PiggyParent):
     '''
     def kyle(self):
       self.fwd()
-      time,sleep(2)
+      time.sleep(2)
       self.stop()
       
     def dance(self):
