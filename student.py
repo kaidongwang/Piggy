@@ -57,7 +57,7 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kyle(self):
-      self.fwb()
+      self.fwd()
       time,sleep(2)
       self.stop()
       
