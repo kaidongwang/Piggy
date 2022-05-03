@@ -67,7 +67,6 @@ class Piggy(PiggyParent):
         
         # lower-ordered example...
         self.right(primary=50, counter=50)
-        self.deg_few(90
         self.fwd()
         time.sleep(2)
         self.turn_by_deg(-50)
