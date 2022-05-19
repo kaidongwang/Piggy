@@ -1,4 +1,4 @@
-# Piggy
+ # Piggy
 
 #### Your maze navigating GoPiGo3 from [Dexter Industries](https://dexterindustries.com)
 
