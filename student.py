@@ -41,7 +41,7 @@ class Piggy(PiggyParent):
                 "f": ("Follow", self.follow),
                 "c": ("Calibrate", self.calibrate),
                 "q": ("Quit", self.quit),
-                "k": ("kyle Test", self.square),
+                "k": ("kyle square Test", self.square),
                 "a": ("Stop at wall", self.stopatwall),
                 "r": ("Go around the box", self.round),
                 "b": ("Maze", self.maze),
@@ -66,7 +66,7 @@ class Piggy(PiggyParent):
       time.sleep(2)
       self.stop()
 
-      self.left(primary=20, counter=-40)
+      self.left(primary=20, counter=-20)
       time.sleep(2)
       self.stop()
 
@@ -75,7 +75,7 @@ class Piggy(PiggyParent):
       self.stop()
 
 
-      self.left(primary=20, counter=-40)
+      self.left(primary=20, counter=-20)
       time.sleep(2)
       self.stop()
 
@@ -83,7 +83,7 @@ class Piggy(PiggyParent):
       time.sleep(2)
       self.stop()
 
-      self.left(primary=20, counter=-40)
+      self.left(primary=20, counter=-20)
       time.sleep(2)
       self.stop()
 
