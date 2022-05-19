@@ -66,7 +66,7 @@ class Piggy(PiggyParent):
       time.sleep(2)
       self.stop()
 
-      self.left(primary=20, counter=-20)
+      self.left(primary=30, counter=-40)
       time.sleep(2)
       self.stop()
 
@@ -75,7 +75,7 @@ class Piggy(PiggyParent):
       self.stop()
 
 
-      self.left(primary=20, counter=-20)
+      self.left(primary=30, counter=-40)
       time.sleep(2)
       self.stop()
 
@@ -83,7 +83,7 @@ class Piggy(PiggyParent):
       time.sleep(2)
       self.stop()
 
-      self.left(primary=20, counter=-20)
+      self.left(primary=30, counter=-40)
       time.sleep(2)
       self.stop()
 
