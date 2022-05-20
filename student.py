@@ -158,7 +158,6 @@ class Piggy(PiggyParent):
         if self.read_distance() < wall_stoping_distance :
           
           self.stop()
-          self.fwd()
 
         else:
           self.fwd()
