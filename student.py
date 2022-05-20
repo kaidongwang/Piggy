@@ -156,8 +156,7 @@ class Piggy(PiggyParent):
       wall_stoping_distance = 400
       while True:
         if self.read_distance() < wall_stoping_distance :
-          self.left()
-          time.sleep(2)
+          
           self.stop()
           self.fwd()
 
