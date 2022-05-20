@@ -63,32 +63,32 @@ class Piggy(PiggyParent):
     '''
     def square(self):
       self.fwd()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
       self.left()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
       self.fwd()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
 
       self.left()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
       self.fwd()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
       self.left()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
 
       self.fwd()
-      time.sleep(2)
+      time.sleep(0.8)
       self.stop()
       
     def round(self):
