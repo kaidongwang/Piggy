@@ -222,10 +222,10 @@ class Piggy(PiggyParent):
           self.servo(self.MIDPOINT)
           time.sleep(.2)
           if(self.read_distance() > wall_stoping_distance):
-            self.right(primary=50, counter=20)
+            self.right(primary=20, counter50)
             time.sleep(1)
             self.fwd()
-            self.left(primary=20, counter=50)
+            self.left(primary=50, counter=20)
             time.sleep(1)
             self.fwd()
           else:
